@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="Assets/MUS.ico" type="image/x-icon">
+    <style>
+        body {
+            background: #121212;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+            margin: 0;
+        }
+
+        nav {
+            background: #333386;
+            border-radius: 25px;
+            margin: 15px 40px 0;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        li {
+            margin: 0 10px;
+        }
+
+        li a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 5px 10px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        li a:hover {
+            background-color: #f5f5f5;
+            color: #333386;
+            border-radius: 5px;
+        }
+
+        section {
+            margin: 30px 40px;
+            padding: 20px;
+            background: #1e1e1e;
+            border-radius: 10px;
+        }
+
+        h1,
+        h3,
+        p,
+        label {
+            color: #ffffff;
+        }
+
+        img.rounded-circle {
+            width: 50px;
+            border: 2px solid white;
+            border-radius: 50%;
+            margin: 0 5px;
+            transition: border 0.3s;
+        }
+
+        img.rounded-circle:hover {
+            border: 2px solid #4CAF50;
+        }
+
+        #About img#MyPic {
+            width: 25%;
+            float: left;
+            margin: 10px 20px 10px 0;
+        }
+
+        input,
+        textarea {
+            width: calc(100% - 50px);
+            margin: 10px 25px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        button {
+            width: calc(100% - 50px);
+            height: 50px;
+            margin: 10px 25px;
+            border: none;
+            border-radius: 5px;
+            background: #333386;
+            color: #ffffff;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background: #4CAF50;
+        }
+
+        footer {
+            background: #333386;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 0 0 25px 25px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: text-decoration 0.3s;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .icon-container a {
+            margin: 0 10px;
+        }
+
+        .icon-container img {
+            width: 40px;
+            transition: transform 0.3s;
+        }
+
+        .icon-container img:hover {
+            transform: scale(1.1);
+        }
+        div#n p{
+            float: right;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Technologies">Technologies</a></li>
+            <li><a href="#ContactUs">Contact Us</a></li>
+            <li><a href="#CV">CV</a></li>
+        </ul>
+        <div id="n"><a href="#About"><img id="7" class="rounded-circle" src="Assets/MUS.ico" alt=""></a><p>Muhammad Umair Shafiq</p></div>
+    </nav>
+    <section id="About">
+        <h1>About</h1>
+        <div>
+            <img id="MyPic" src="Assets/My Pic.JPG" alt="PIC">
+            <p>👋 Hello there! I'm Umair Shafiq, a passionate individual with a keen interest in both development and
+                football. By day, I delve into the world of development, seeking innovative solutions and ways to make a
+                positive impact. When the workday is done, you'll often find me on the football pitch, chasing after
+                that elusive goal or enjoying the camaraderie of teammates.</p>
+            <p>My dedication to development extends beyond just software or infrastructure; I'm also committed to
+                personal growth and community betterment. Whether it's through coding, volunteering, or simply lending a
+                helping hand, I strive to contribute meaningfully to the world around me.</p>
+            <p>On the football field, I find joy in the beautiful game's blend of strategy, athleticism, and teamwork.
+                It's not just about scoring goals but also about the shared experiences, the lessons learned through
+                wins and losses, and the friendships forged along the way.</p>
+            <p>With a drive for progress in both my professional and personal pursuits, I aim to continuously learn,
+                grow, and make a difference, both on and off the field.</p>
+        </div>
+    </section>
+    <section id="Projects">
+        <h1>Projects</h1>
+        <div class="ProjectDetail">
+            <h2>1. Programming 2: Object Oriented Programming</h2>
+            <h3>Project: Online Food Ordering System; HUNGER DELIGHTS .CO </h3>
+            <p>The Online Food Ordering and Reservation System is a Python-based solution facilitating convenient food
+                ordering and table reservations at restaurants. Users can create accounts, browse menus, place orders
+                for
+                delivery or pickup, and make table reservations seamlessly. Restaurant owners have access to management
+                tools for menus,
+                orders, and reservations, while administrators oversee the system's operation. With features like
+                real-time order tracking and
+                analytics, the system enhances the dining experience for customers and optimizes operations for
+                restaurants.</p>
+        </div>
+        <div class="ProjectDetail">
+            <h2>2. Database: Using SQL</h2>
+            <h3>Project Title: Automotive Service Management System</h3>
+            <p>The Automotive Service Management System streamlines vehicle maintenance operations,
+                including service scheduling, parts procurement, and payment tracking. It manages invoices,
+                payments, employee details, service records, warranties, and insurance information. Key features
+                include:
+            <ul>
+                <li>Payment and Invoice Management: Tracks payments and generates invoices.</li>
+                <li>Employee and Service Management: Records employee details and service history.</li>
+                <li>Insurance and Warranty Tracking: Manages insurance policies and warranty information.</li>
+                <li>Vehicle and Customer Management: Stores vehicle and customer details.</li>
+                <li>Part and Purchase Order Management: Tracks parts inventory and purchase orders.</li>
+                <li>Supplier Management: Manages supplier details and procurement processes.</li>
+            </ul>
+            </p>
+        </div>
+        <div class="ProjectDetail">
+            <h2>3. Machine Learning</h2>
+            <h3>Project Title: Soundtrack Prediction with Machine Learning</h3>
+            <p>This project focuses on utilizing machine learning to predict soundtracks based on
+                diverse features like genre, mood, tempo, and instrumentation. Three models, Support Vector Machine
+                (SVM), Random Forest, and Neural Network, are trained and compared for their ability to accurately
+                predict
+                soundtrack attributes. The project aims to enhance music recommendation systems and improve user
+                satisfaction by providing
+                personalized soundtrack suggestions.</p>
+        </div>
+        <div class="ProjectDetail">
+            <h2>4. Game Development</h2>
+            <h3>i. Project Title: Doodle Jump Replica</h3>
+            <p>This project involves creating a replica of the popular mobile game "Doodle Jump."
+                Players guide a character upward by jumping on platforms while avoiding obstacles.
+                Key features include platform generation, power-ups, scoring, graphics, sound effects,
+                and cross-platform compatibility. The goal is to deliver an engaging gaming experience
+                reminiscent of the original while incorporating personal touches and optimizations for various devices.
+            </p>
+            <h3>ii. Project Title: Maze Runner 3D</h3>
+            <p>Maze Runner 3D is an engaging action-adventure game developed using the Godot Engine and C#. The game
+                immerses players in a thrilling quest where they navigate through intricate mazes, collect keys, defeat
+                enemies, and ultimately save their friend. With two challenging levels, Maze Runner 3D offers a
+                captivating
+                blend of puzzle-solving and combat, ensuring an exciting and rewarding experience for players.</p>
+        </div>
+        <div class="ProjectDetail">
+            <h2>5. Web Development</h2>
+            <h3>i. Project Title: Noisli Front End</h3>
+            <p>This project involves creating a front end of the Noisli website, a popular productivity
+                tool offering customizable background sounds and color schemes to enhance focus and relaxation.
+                The replica will feature a distraction-free interface, ambient sounds like rain or coffee shop ambiance,
+                and customizable color options. Using HTML, CSS, and Bootstrap 5, we'll develop a responsive and
+                visually appealing UI optimized for various devices. The goal is to provide users with a tool similar to
+                Noisli
+                for boosting productivity and relaxation.</p>
+            <h3>ii. Project Title: Online Store</h3>
+            <p>Nutrition Planet is a comprehensive e-commerce platform designed to offer a variety of nutrition and
+                health-related products, along with informative content to help users make informed decisions about
+                their health and
+                wellness. The website features a user-friendly interface with distinct sections for products, blog
+                posts, and
+                customer support. Made in React And Java Script And Django For Backend.</p>
+        </div>
+    </section>
+    <section id="Technologies">
+        <h1>Technologies</h1>
+        <p><b>Programming Languages:</b> Python, Java, C#, JavaScript, HTML, CSS, SQL</p>
+        <p><b>Web Development:</b> HTML, CSS, JavaScript, Bootstrap, React, Django</p>
+        <p><b>Data Science and Machine Learning:</b> Python (Pandas, NumPy, Scikit-learn)</p>
+        <p><b>Software Development:</b> Git, Agile, Scrum</p>
+        <p><b>Mobile App Development:</b> Android, Flutter</p>
+        <p><b>Game Development:</b> Godot Game Engine, C#</p>
+        <p><b>Database Management:</b> Microsoft SQL</p>
+    </section>
+    <section id="Hobbies">
+        <h1>Hobbies</h1>
+        <h3>1. Football (Soccer or American)</h3>
+        <p>Football is a central passion. Whether playing in a local league, practicing skills at the park, or watching
+            favorite teams on TV, this hobby provides excitement and physical activity. Engaging in fantasy football
+            leagues and collecting memorabilia adds a
+            layer of involvement and connection to the sport.</p>
+        <h3>2. Technology and Coding</h3>
+        <p>As a Computer Science major, there is a natural inclination towards technology and coding. This involves
+            working on personal or collaborative programming projects, participating in hackathons, and contributing to
+            open-source communities. Exploring new programming
+            languages, developing apps, and tinkering with hardware are key aspects of this hobby.</p>
+        <h3>3. Gaming</h3>
+        <p>Gaming is a popular pastime, offering both relaxation and a challenge. This includes playing video games on
+            various platforms (console, PC, mobile), engaging in esports and competitive gaming, and enjoying board
+            games and tabletop RPGs with friends. Gaming serves as both a
+            social activity and a way to unwind after a day of coding or studying.</p>
+        <h3>4. Fitness and Sports</h3>
+        <p>Staying active is important, and aside from football, there is an interest in other sports such as
+            basketball and tennis. Regular workouts at the gym, jogging, or participating in outdoor activities like
+            hiking or biking help maintain physical fitness and provide a break from screen time.</p>
+        <h3>5. Entertainment</h3>
+        <p>Entertainment plays a significant role in leisure time. Watching movies and TV shows on streaming platforms
+            like Netflix and YouTube offers a way to relax and enjoy stories from various genres. Additionally,
+            listening to podcasts and music provides entertainment on the go, whether commuting or taking a break from
+            studies. Streaming platforms and
+            social media keep them connected with the latest in entertainment and tech trends.</p>
+    </section>
+    <section id="ContactUs">
+        <h1>Contact Us</h1>
+        <form action="" name="Contact">
+            <div>
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
+            </div>
+            <div>
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+            </div>
+            <div>
+                <label for="Subject" class="form-label">Subject:</label>
+                <input type="text" class="form-control" id="Subject" placeholder="Enter Subject" name="Subject">
+            </div>
+            <div>
+                <label for="ProjectDetail" class="form-label">Project Details:</label>
+                <textarea class="form-control" rows="5" id="ProjectDetail" placeholder="Enter Project Details"
+                    name="text"></textarea>
+            </div>
+            <button type="submit"><b>Submit</b></button>
+        </form>
+    </section>
+    <section id="CV">
+        <embed src="Assets/CV.pdf" alt="CV" width="100%" height="1000px">
+        <a href="Assets/Umair Shafiq CV.docx"><button type="button"><b>Download</b></button></a>
+    </section>
+    <footer>
+        <p>&copy; 2024 Umair Shafiq. All rights reserved.</p>
+        <div class="icon-container">
+            <a href="mailto:umair.shafiq003@gmail.com"><img id="0" class="rounded-circle" src="Assets/email.png"
+                    alt="email icon"></a>
+            <a href="https://www.instagram.com/umair.shafiq003/"><img id="1" class="rounded-circle"
+                    src="Assets/instagram.jpg" alt="instagram icon"></a>
+            <a href="https://www.facebook.com/profile.php?id=100011334964012"><img id="2" class="rounded-circle"
+                    src="Assets/facebook.jpg" alt="facebook icon"></a>
+            <a href="https://accounts.snapchat.com/accounts/snapcodes"><img id="3" class="rounded-circle"
+                    src="Assets/snapchat.jpg" alt="snapchat icon"></a>
+            <a href="https://www.linkedin.com/in/umair-shafiq-0a7505249/"><img id="4" class="rounded-circle"
+                    src="Assets/linkedin.png" alt="LinkedIn icon"></a>
+            <a href="https://github.com/umair-shafiq003"><img id="5" class="rounded-circle" src="Assets/github.jpg"
+                    alt="github icon"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
